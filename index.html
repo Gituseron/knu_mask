@@ -9,6 +9,7 @@
       <a-assets>
 	<a-asset-item id="hat" src="https://gituseron.github.io/knu_mask/graduation_cap_small.glb"></a-asset-item>
 	<a-asset-item id="knu" src="https://gituseron.github.io/knu_mask/knu.glb"></a-asset-item>
+	<a-asset-item id="letters" src="https://gituseron.github.io/knu_mask/knu_letters.glb"></a-asset-item>
 	<a-asset-item id="headModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.2/examples/face-tracking/assets/sparkar/headOccluder.glb"></a-asset-item>
       </a-assets>
 
@@ -21,6 +22,9 @@
       </a-entity>
       <a-entity mindar-face-target="anchorIndex: 195">
         <a-gltf-model rotation="0 0 0" position="1.8 0 0" scale="0.35 0.35 0.35" src="#knu"></a-gltf-model>
+      </a-entity>
+      <a-entity mindar-face-target="anchorIndex: 195">
+        <a-gltf-model rotation="0 0 0" position="1.8 1 0" scale="0.35 0.35 0.35" src="#letters"></a-gltf-model>
       </a-entity>
     </a-scene>
   </body>
